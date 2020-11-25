@@ -39,7 +39,7 @@ public class Verifier {
         myReader.close();
         myReader = new Scanner(output);
         Integer[][] order = new Integer[5][n];
-        int result = parseInt(myReader.nextLine().trim());
+        double result = Double.parseDouble(myReader.nextLine().trim());
         double realResult = 0;
         int j =0;
         while (myReader.hasNextLine()) {
